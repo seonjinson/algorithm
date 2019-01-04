@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b29a33f4-76d9-450c-8a28-11cce62960d4" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/DuplicateValue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DuplicateValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StringDescend.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -38,8 +39,20 @@
       <file leaf-file-name="Prime.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Prime.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="225">
+              <caret line="15" column="8" lean-forward="true" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StringDescend.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/StringDescend.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="42" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -57,14 +70,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DuplicateValue.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DuplicateValue.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/DuplicateValue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="400">
+              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
               <folding>
-                <element signature="e#77#78#0" expanded="true" />
-                <element signature="e#103#104#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -91,6 +103,7 @@
         <option value="$PROJECT_DIR$/src/ZSearching.java" />
         <option value="$PROJECT_DIR$/src/SearchingDay.java" />
         <option value="$PROJECT_DIR$/src/DuplicateValue.java" />
+        <option value="$PROJECT_DIR$/src/StringDescend.java" />
       </list>
     </option>
   </component>
@@ -104,8 +117,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="910" />
-    <option name="y" value="-1047" />
+    <option name="x" value="907" />
+    <option name="y" value="-1057" />
     <option name="width" value="1547" />
     <option name="height" value="982" />
   </component>
@@ -152,13 +165,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DuplicateValue">
+  <component name="RunManager" selected="Application.StringDescend">
     <configuration name="DuplicateValue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DuplicateValue" />
-      <module name="algorithm" />
-    </configuration>
-    <configuration name="NextPermutation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="NextPermutation" />
       <module name="algorithm" />
     </configuration>
     <configuration name="Prime" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -169,24 +178,28 @@
       <option name="MAIN_CLASS_NAME" value="SearchingDay" />
       <module name="algorithm" />
     </configuration>
+    <configuration name="StringDescend" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StringDescend" />
+      <module name="algorithm" />
+    </configuration>
     <configuration name="ZSearching" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ZSearching" />
       <module name="algorithm" />
     </configuration>
     <list>
-      <item itemvalue="Application.NextPermutation" />
       <item itemvalue="Application.ZSearching" />
       <item itemvalue="Application.Prime" />
       <item itemvalue="Application.SearchingDay" />
       <item itemvalue="Application.DuplicateValue" />
+      <item itemvalue="Application.StringDescend" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StringDescend" />
         <item itemvalue="Application.DuplicateValue" />
         <item itemvalue="Application.SearchingDay" />
         <item itemvalue="Application.Prime" />
         <item itemvalue="Application.ZSearching" />
-        <item itemvalue="Application.NextPermutation" />
       </list>
     </recent_temporary>
   </component>
@@ -201,15 +214,15 @@
       <option name="presentableId" value="Default" />
       <updated>1546407650648</updated>
       <workItem from="1546407655183" duration="4900000" />
-      <workItem from="1546485694049" duration="8008000" />
+      <workItem from="1546485694049" duration="9507000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12908000" />
+    <option name="totallyTimeSpent" value="14407000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="910" y="-1047" width="1547" height="982" extended-state="0" />
+    <frame x="907" y="-1057" width="1547" height="982" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -292,13 +305,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Prime.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/SearchingDay.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -312,11 +318,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/DuplicateValue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="400">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
           <folding>
-            <element signature="e#77#78#0" expanded="true" />
-            <element signature="e#103#104#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Prime.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="8" lean-forward="true" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/StringDescend.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="42" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
