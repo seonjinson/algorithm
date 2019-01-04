@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b29a33f4-76d9-450c-8a28-11cce62960d4" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/StringIndexSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StringIndexSort2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ValueOfKNumber.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -92,11 +91,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StringIndexSort2.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="StringIndexSort2.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/StringIndexSort2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+            <state relative-caret-position="420">
+              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ValueOfKNumber.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ValueOfKNumber.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="313">
+              <caret line="23" column="46" selection-start-line="23" selection-start-column="46" selection-end-line="23" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -128,6 +139,7 @@
         <option value="$PROJECT_DIR$/src/StringDescend.java" />
         <option value="$PROJECT_DIR$/src/StringIndexSort.java" />
         <option value="$PROJECT_DIR$/src/StringIndexSort2.java" />
+        <option value="$PROJECT_DIR$/src/ValueOfKNumber.java" />
       </list>
     </option>
   </component>
@@ -189,13 +201,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.StringIndexSort2">
+  <component name="RunManager" selected="Application.ValueOfKNumber">
     <configuration name="DuplicateValue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DuplicateValue" />
-      <module name="algorithm" />
-    </configuration>
-    <configuration name="SearchingDay" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SearchingDay" />
       <module name="algorithm" />
     </configuration>
     <configuration name="StringDescend" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -210,20 +218,24 @@
       <option name="MAIN_CLASS_NAME" value="StringIndexSort2" />
       <module name="algorithm" />
     </configuration>
+    <configuration name="ValueOfKNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ValueOfKNumber" />
+      <module name="algorithm" />
+    </configuration>
     <list>
-      <item itemvalue="Application.SearchingDay" />
       <item itemvalue="Application.DuplicateValue" />
       <item itemvalue="Application.StringDescend" />
       <item itemvalue="Application.StringIndexSort" />
       <item itemvalue="Application.StringIndexSort2" />
+      <item itemvalue="Application.ValueOfKNumber" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ValueOfKNumber" />
         <item itemvalue="Application.StringIndexSort2" />
         <item itemvalue="Application.StringIndexSort" />
         <item itemvalue="Application.StringDescend" />
         <item itemvalue="Application.DuplicateValue" />
-        <item itemvalue="Application.SearchingDay" />
       </list>
     </recent_temporary>
   </component>
@@ -238,12 +250,12 @@
       <option name="presentableId" value="Default" />
       <updated>1546407650648</updated>
       <workItem from="1546407655183" duration="4900000" />
-      <workItem from="1546485694049" duration="16766000" />
+      <workItem from="1546485694049" duration="19361000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21666000" />
+    <option name="totallyTimeSpent" value="24261000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="896" y="-990" width="1375" height="982" extended-state="0" />
@@ -258,9 +270,9 @@
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.31299436" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.31299436" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32850778" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.28248587" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.28248587" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="Designer" order="2" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25956488" />
@@ -376,8 +388,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/StringIndexSort2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+        <state relative-caret-position="420">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ValueOfKNumber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="23" column="46" selection-start-line="23" selection-start-column="46" selection-end-line="23" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
