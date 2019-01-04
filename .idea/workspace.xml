@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b29a33f4-76d9-450c-8a28-11cce62960d4" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/StringDescend.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StringIndexSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StringIndexSort2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -45,11 +46,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StringDescend.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="StringDescend.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/StringDescend.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
-              <caret line="6" column="42" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
+              <caret line="6" column="48" selection-start-line="6" selection-start-column="48" selection-end-line="6" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -73,8 +74,29 @@
       <file leaf-file-name="DuplicateValue.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/DuplicateValue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+            <state relative-caret-position="300">
+              <caret line="20" column="25" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StringIndexSort.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/StringIndexSort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="42" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StringIndexSort2.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/StringIndexSort2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -104,6 +126,8 @@
         <option value="$PROJECT_DIR$/src/SearchingDay.java" />
         <option value="$PROJECT_DIR$/src/DuplicateValue.java" />
         <option value="$PROJECT_DIR$/src/StringDescend.java" />
+        <option value="$PROJECT_DIR$/src/StringIndexSort.java" />
+        <option value="$PROJECT_DIR$/src/StringIndexSort2.java" />
       </list>
     </option>
   </component>
@@ -117,9 +141,9 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="907" />
-    <option name="y" value="-1057" />
-    <option name="width" value="1547" />
+    <option name="x" value="896" />
+    <option name="y" value="-990" />
+    <option name="width" value="1375" />
     <option name="height" value="982" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -165,13 +189,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.StringDescend">
+  <component name="RunManager" selected="Application.StringIndexSort2">
     <configuration name="DuplicateValue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DuplicateValue" />
-      <module name="algorithm" />
-    </configuration>
-    <configuration name="Prime" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Prime" />
       <module name="algorithm" />
     </configuration>
     <configuration name="SearchingDay" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -182,24 +202,28 @@
       <option name="MAIN_CLASS_NAME" value="StringDescend" />
       <module name="algorithm" />
     </configuration>
-    <configuration name="ZSearching" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ZSearching" />
+    <configuration name="StringIndexSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StringIndexSort" />
+      <module name="algorithm" />
+    </configuration>
+    <configuration name="StringIndexSort2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StringIndexSort2" />
       <module name="algorithm" />
     </configuration>
     <list>
-      <item itemvalue="Application.ZSearching" />
-      <item itemvalue="Application.Prime" />
       <item itemvalue="Application.SearchingDay" />
       <item itemvalue="Application.DuplicateValue" />
       <item itemvalue="Application.StringDescend" />
+      <item itemvalue="Application.StringIndexSort" />
+      <item itemvalue="Application.StringIndexSort2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StringIndexSort2" />
+        <item itemvalue="Application.StringIndexSort" />
         <item itemvalue="Application.StringDescend" />
         <item itemvalue="Application.DuplicateValue" />
         <item itemvalue="Application.SearchingDay" />
-        <item itemvalue="Application.Prime" />
-        <item itemvalue="Application.ZSearching" />
       </list>
     </recent_temporary>
   </component>
@@ -214,15 +238,15 @@
       <option name="presentableId" value="Default" />
       <updated>1546407650648</updated>
       <workItem from="1546407655183" duration="4900000" />
-      <workItem from="1546485694049" duration="9507000" />
+      <workItem from="1546485694049" duration="16766000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14407000" />
+    <option name="totallyTimeSpent" value="21666000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="907" y="-1057" width="1547" height="982" extended-state="0" />
+    <frame x="896" y="-990" width="1375" height="982" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -236,10 +260,10 @@
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.31299436" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32850778" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3322034" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.28248587" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22990033" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25956488" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -316,16 +340,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DuplicateValue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Prime.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -336,7 +350,34 @@
     <entry file="file://$PROJECT_DIR$/src/StringDescend.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="6" column="42" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
+          <caret line="6" column="48" selection-start-line="6" selection-start-column="48" selection-end-line="6" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DuplicateValue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="25" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/StringIndexSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="42" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/StringIndexSort2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
